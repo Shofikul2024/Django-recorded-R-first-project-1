@@ -1,0 +1,51 @@
+CREATE YOUR FIRST DJANGO PROJECT (Corrected)
+01. Make a new project folder
+mkdir main_project
+cd main_project
+
+02. Create a virtual environment inside the project folder
+
+Windows / Linux / macOS (recommended single command):
+
+python -m venv venv
+
+
+⚠️ python-m venv ve ❌
+⚠️ python3-m venv venv ❌
+✔️ সঠিক ফরম্যাট: python -m venv venv
+
+03. Activate the virtual environment
+
+Windows:
+
+venv\Scripts\activate
+
+
+Linux / macOS:
+
+source venv/bin/activate
+
+Install Django & Create Project (Corrected)
+04. Install Django (Virtual Environment চালু থাকা অবস্থায়)
+pip install django
+
+
+pip3 দরকার নেই যদি venv active থাকে।
+
+05. Create the Django Project
+django-admin startproject config .
+
+
+ডট (.) দিলে একই ফোল্ডারের ভেতর প্রজেক্ট তৈরি হবে।
+
+06. Run Your Project
+python manage.py runserver
+
+✅ Output
+
+Browser এ খুলুন:
+
+http://127.0.0.1:8000/
+
+
+✔️ Django project সফলভাবে চলছে।
