@@ -45,7 +45,7 @@ python manage.py runserver
 
 Browser এ খুলুন:
 
-http://127.0.0.1:8000/
+http://127.0.0.1:8000/             // ai location a click korlei cholbe
 
 
 ✔️ Django project সফলভাবে চলছে।
